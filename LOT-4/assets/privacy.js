@@ -1,1 +1,0 @@
-(()=>{const footer=document.querySelector(".footer-legal-links");if(!footer)return;const a=document.createElement("a");a.href=(document.body.dataset.base||"")+"politique-confidentialite/index.html",a.textContent="Données et confidentialité",footer.append(a)})();

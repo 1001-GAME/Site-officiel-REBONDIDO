@@ -1,1 +1,0 @@
-(()=>{const scene=document.querySelector(".play-scene");if(!scene||scene.querySelector(".play-card-row"))return;const row=document.createElement("div");row.className="play-card-row",scene.prepend(row),[...scene.querySelectorAll(".play-card")].forEach(card=>row.append(card))})();

@@ -1,0 +1,12 @@
+REBONDIDO — VERIFICATIONS A LA MISE EN LIGNE
+
+SEO : titres et descriptions uniques, adresses canoniques rebondido.com, apercus de partage, donnees structurees de marque, robots.txt et sitemap.xml inclus. Aucun prix, avis ou delai invente. Apres publication, soumettre https://rebondido.com/sitemap.xml dans Google Search Console.
+
+SECURITE : fichiers .htaccess (Apache) et _headers (hebergements statiques compatibles) inclus. Ils limitent les scripts aux fichiers locaux, bloquent les objets embarques et restreignent les iframes au formulaire Google. Les styles en ligne restent autorises pour les animations. Les scripts de fonctionnement sont maintenant externes ; les anciennes empreintes des scripts integres ont ete retirees. Si le site est integre dans un CMS, adapter ces regles a ce dernier ; ne pas remplacer aveuglement sa configuration existante.
+
+Activer HTTPS et rediriger HTTP vers HTTPS dans le panneau de l’hebergeur. Verifier ensuite les en-tetes effectifs dans le navigateur. Les protections ne deviennent actives qu’apres installation sur un hebergement compatible. HSTS n’est pas force avant verification du domaine HTTPS.
+
+Les demandes de reservation sont envoyees a votre Google Forms. La newsletter ouvre une demande par e-mail, elle ne constitue pas une inscription automatique. Aucun mot de passe, cle API ou base de donnees de visiteurs n’est inclus. Le formulaire n’est charge qu’apres ouverture. Les captures d’ecran ne peuvent pas etre empechees.
+
+Sources : https://developer.mozilla.org/en-US/docs/Web/HTTP/Reference/Headers/Content-Security-Policy
+https://developers.google.com/search/docs/crawling-indexing/sitemaps/build-sitemap

@@ -1,0 +1,13 @@
+REBONDIDO — VERSION RECONSTRUITE
+
+Décompresser puis déposer tout le contenu dans le dossier public de l’hébergement, après sauvegarde du site existant. Aucune mise en ligne n’a été faite ici.
+
+Accueil : index.html
+Jeu : jeu/index.html
+Démo : demo/index.html
+Kit offert : kit-decouverte/index.html
+Professionnels : professionnels/index.html
+Pages juridiques : mentions-legales, conditions-utilisation, politique-confidentialite.
+
+Les fichiers HTML peuvent être ouverts localement. En ligne, vérifier HTTPS et l’activation des en-têtes adaptés à l’hébergeur (.htaccess ou _headers).
+La réservation utilise le formulaire Google officiel, ouvert uniquement sur demande. Les inscriptions à la newsletter préparent un e-mail, sans envoi automatique. Les PDF du kit restent accessibles sans inscription.

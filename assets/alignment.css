@@ -1,0 +1,51 @@
+/* One shared column for public pages; decorative layers may extend beyond it. */
+:root{--aligned-width:1180px;--aligned-gutter:28px}
+.home-shell,.pro-shell,.shell,body[data-page=demo]>main,body.legal-page>main{max-width:var(--aligned-width)!important;width:calc(100% - var(--aligned-gutter)*2)!important;margin-inline:auto!important}
+.home-frame{width:100%!important;max-width:none!important;margin-inline:0!important}
+main>.home-section:not(.brand-frame-front):not(.quiet-paper-note),main>.pro-section{padding-inline:0!important}
+.brand-frame-wrap{padding-inline:0!important}
+.hero-stack-wrap,.home-how-stack,.pro-audience-stack,.contact-hero-stack,.demo-hero-stack,.demo-settings-stack{width:100%!important;max-width:none!important;margin-inline:0!important}
+.brand-frame-wrap>.brand-frame-front{width:100%!important;max-width:none!important;margin-inline:0!important;box-sizing:border-box}
+.game-top>.game-hero{width:100%!important;max-width:none!important;margin-inline:0!important}
+.harmony-stack{width:calc(100% - var(--aligned-gutter)*2)!important;max-width:var(--aligned-width)!important;padding-inline:0!important}
+main .harmony-stack{width:100%!important}
+.home-folder-stack{width:100%!important;margin-inline:0!important}
+.terrain-page .terrain-reading{width:100%;max-width:none;padding-inline:0!important}
+@media(max-width:760px){:root{--aligned-gutter:24px}.home-section:not(.brand-frame-front):not(.quiet-paper-note),.pro-section{padding-inline:0!important}.game-how{padding-inline:0!important}.game-how-inner{padding-inline:0!important}.terrain-page .terrain-hero{padding-inline:0}.terrain-page .terrain-folder{padding-inline:25px}.contact-page main{padding-inline:0}}
+.brand-frame-wrap:before{background:var(--back)!important}.brand-frame-wrap:after{background:var(--middle)!important}
+body[data-page=kit] .fan button{background:transparent!important;border:0!important;outline:0;padding:0!important;box-shadow:none!important;aspect-ratio:auto!important;height:auto!important;min-height:0!important}
+body[data-page=kit] .fan button:before,body[data-page=kit] .fan button:after{content:none!important}
+body[data-page=kit] .fan button img{margin:0!important;padding:0!important;transform:none!important}
+.kit-section-nav{position:sticky!important;top:10px;z-index:30;background:#253449!important;color:#fff!important;border:1px solid #ffffff40!important;border-radius:12px!important;padding:8px!important;box-shadow:0 6px 20px #25344926;display:flex;gap:6px;overflow-x:auto;max-width:100%;scrollbar-width:thin}
+.kit-section-nav a{color:#fff!important;padding:10px 14px!important;border-radius:7px!important;white-space:nowrap;font-weight:750!important;text-decoration:none!important;background:transparent!important}
+.kit-section-nav a:hover,.kit-section-nav a:focus-visible,.kit-section-nav a[aria-current],.kit-section-nav .nav-download{background:#ffca08!important;color:#253449!important}
+.kit-section-nav .kit-nav-label{color:#ffdf66!important;align-self:center}
+@media(max-width:760px){.kit-section-nav{top:6px}.kit-section-nav a{font-size:12px!important;padding:10px!important}}
+.variant-demo-actions{display:flex;align-items:center;flex-wrap:wrap;gap:15px;margin-top:24px}.variant-demo-actions .button{font-size:15px;padding:13px 19px}.variant-watch{color:#16526c;font-size:15px;font-weight:800;text-underline-offset:4px}@media(max-width:760px){.variant-demo-actions{align-items:flex-start;flex-direction:column;gap:18px}}
+/* Play controls stay distinct from the page and readable at a glance. */
+body[data-page=demo] .play-controls{gap:10px;align-items:center}
+body[data-page=demo] .play-controls button{font-size:14px;min-height:46px;border-radius:12px;padding:12px 17px;border:1px solid #25344930;box-shadow:0 3px 0 #25344916}
+body[data-page=demo] .play-controls [data-a=auto]{background:#253449;color:#fff;border-color:#253449}
+body[data-page=demo] .play-controls [data-a=guide]{background:#ffca08;color:#253449;border-color:#d7a900}
+body[data-page=demo] .play-controls [data-a=home]{background:#fff;color:#253449;border-color:#80527e}
+body[data-page=demo] .play-board{grid-template-columns:minmax(220px,.8fr) minmax(0,1.2fr);gap:32px;align-items:start}
+body[data-page=demo] .table{align-self:start;padding:18px 0;gap:14px}
+body[data-page=demo] .table img{width:clamp(160px,18vw,240px);max-width:46%;height:auto;object-fit:contain;box-shadow:0 12px 24px #25344920}
+body[data-page=demo] .table img:only-child{max-width:85%}
+@media(max-width:760px){body[data-page=demo] .play-controls{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));width:100%;gap:7px}body[data-page=demo] .play-controls button{font-size:11px;padding:10px 5px;min-height:44px;border-radius:10px}body[data-page=demo] .play-board{grid-template-columns:1fr;gap:15px}body[data-page=demo] .table{padding:0}body[data-page=demo] .table img{width:110px;max-width:28%}body[data-page=demo] .table img:only-child{width:145px;max-width:55%}}
+body[data-page=demo] .demo-tools{display:flex;justify-content:center;align-items:center;flex-wrap:wrap;gap:9px;padding:13px 0;border-top:1px solid #80527e30}
+body[data-page=demo] .demo-tools button,body[data-page=demo] .demo-tools a{display:inline-flex;align-items:center;justify-content:center;min-height:44px;padding:10px 15px;border:1px solid #80527e55;border-radius:10px;background:#fff;color:#253449;font-size:13px;font-weight:800;text-decoration:none;box-shadow:0 2px 0 #25344910;line-height:1.3}
+body[data-page=demo] .demo-tools button:hover,body[data-page=demo] .demo-tools button:focus-visible{background:#eee0ed;color:#253449}
+body[data-page=demo] .demo-tools .demo-kit-link{background:#16526c;color:#fff;border-color:#16526c}
+body[data-page=demo] .demo-tools .demo-presale-link{background:#ffca08;color:#253449;border-color:#d7a900}
+@media(max-width:760px){body[data-page=demo] .demo-tools{display:grid;grid-template-columns:1fr 1fr;gap:7px;width:100%}body[data-page=demo] .demo-tools button,body[data-page=demo] .demo-tools a{font-size:11px;padding:9px 7px}body[data-page=demo] .demo-tools [data-cards-guide]{grid-column:1 / -1;grid-row:2}}
+
+/* Lisibilité mobile : plancher de 12 px pour les petites étiquettes (sans toucher à la mise en page) */
+@media(max-width:760px){
+.visual-caption,.story-card-order,.folder-tag,.preview-label,.mini-turn-label,.eyebrow,.note-kicker,.pdf-tag,.contact-kicker,.home-eyebrow,.pro-eyebrow,.game-status,.audience-index,.download-meta,.demo-small,.trust-line,.usage,.chips span,.facts span,.home-badges span,.home-badges small,.mini-story-people span,.pro-offer-image span,.reservation-facts span,.simple-phrase,.simple-players span,.fold-step-labels span,.demo-section-heading span,.pro-project-action span,.pro-project-action small,.variant-example,.example-sentence small,figcaption,.mini-story-controls a,body[data-page=demo] .demo-tools button,body[data-page=demo] .demo-tools a{font-size:12px!important}
+.form-consent,.form-consent span{font-size:13px!important}
+}
+/* Très petits écrans : colonne unique sans débordement horizontal */
+@media(max-width:400px){.site-contact>*,.site-newsletter>*{min-width:0}.contact-mail,.contact-official-email,.contact-options a{overflow-wrap:anywhere}}
+@media(max-width:400px){.contact-networks>*{min-width:0}.contact-networks h2{font-size:clamp(24px,8vw,30px);overflow-wrap:anywhere}}
+@media(max-width:400px){.contact-networks nav{grid-template-columns:repeat(2,minmax(0,1fr))}.contact-networks nav a{padding:20px 14px;min-width:0;overflow-wrap:anywhere}}

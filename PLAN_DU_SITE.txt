@@ -1,0 +1,16 @@
+REBONDIDO_SITE_UNIFIE/
+  index.html
+  jeu/index.html
+  demo/index.html
+  kit-decouverte/index.html
+  professionnels/index.html
+  mentions-legales/index.html
+  conditions-utilisation/index.html
+  politique-confidentialite/index.html
+  assets/site.css       Design partagé
+  assets/common.js      Navigation et utilitaires
+  assets/intro.js       Colimaçon et transitions
+  assets/demo-engine.js Nouveau moteur de démo
+  */page.css            Composants propres à chaque espace
+
+Voir INSTALLATION.txt et ARCHITECTURE.txt.

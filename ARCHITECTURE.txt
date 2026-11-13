@@ -1,0 +1,11 @@
+REBONDIDO — RECONSTRUCTION
+
+8 documents HTML propres.
+assets/site.css : une seule base partagée (couleurs, navigation, cadres, largeur, pied de page, intro, démo).
+page.css : composants propres à chaque espace, sans les anciennes règles de menu et d’intro.
+assets/common.js : navigation, clavier, contact et transitions.
+assets/intro.js : une seule animation de colimaçon, réutilisée sur toutes les pages.
+assets/demo-engine.js : nouveau moteur avec un seul état de partie et un seul rendu par écran.
+Les autres modules ont une fonction précise : exemple d’histoire, réservation, téléchargements, animation du kit, offres pro ou aide visuelle.
+Aucun ancien fichier runtime-XX, ancien moteur de démo ou surcouche de menu n’est livré.
+Les visuels et PDF originaux ont été conservés.
